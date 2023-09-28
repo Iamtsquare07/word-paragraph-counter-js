@@ -1,0 +1,79 @@
+body {
+    padding: 10px;
+    background-color: #000014;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    color: #c2c5ff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1,
+h4 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgba(255, 217, 0, 0.61);
+    font-family: 'Croissant One', cursive;
+}
+
+.word-counter {
+    font-family: Arial, sans-serif;
+    color: #bfd0ff;
+    margin: auto;
+    width: 90%;
+    height: auto;
+    margin-top: 10px;
+    background-color: #00006e;
+    padding: 50px 20px 50px 20px;
+    padding-top: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 1px #1b37b4;
+    text-align: center;
+}
+
+#colorer {
+    color: blue;
+}
+
+.editor {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+textarea {
+    background-color: #191930;
+    border: 1px solid #1e1e50;
+    padding: 10px;
+    color: #01bcf5;
+    width: 98%;
+    border-radius: 10px;
+    height: 300px;
+
+}
+
+#result {
+    text-align: left;
+    min-height: 25px;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#check {
+    border-radius: 25px;
+    background-color: #5b5bf5;
+    padding: 10px;
+    border: 1px solid #3c5ffa;
+    width: 150px;
+}
+
+@media only screen and (min-width: 1024px) {
+    .word-counter {
+        width: 80%;
+        max-height: 450px;
+        height: 450px;
+    }
+}
